@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\SocialClassifier.Core\SocialClassifier.Core.csproj" />
+    <ProjectReference Include="..\SocialClassifier.Laya\SocialClassifier.Laya.csproj" />
+    <ProjectReference Include="..\SocialClassifier.Excel\SocialClassifier.Excel.csproj" />
+    <ProjectReference Include="..\SocialClassifier.XApi\SocialClassifier.XApi.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="10.0.14" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.CommandLine" Version="10.0.14" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.14" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="10.0.14" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>9646949f-5ccd-4266-a4fa-acac3f31fc37</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="sample-posts.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

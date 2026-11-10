@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "createdAt": "2026-10-01T10:00:00Z",
+    "text": "Just shipped a small side project, really happy with how it turned out.",
+    "type": "MyPost",
+    "parentText": null
+  },
+  {
+    "id": "2",
+    "createdAt": "2026-10-02T12:30:00Z",
+    "text": "That take is garbage and so are you. Log off.",
+    "type": "MyReply",
+    "parentText": "Hot take: static typing is overrated."
+  },
+  {
+    "id": "3",
+    "createdAt": "2026-10-03T08:15:00Z",
+    "text": "Thanks, that's a fair point. I'll read the paper.",
+    "type": "MyReply",
+    "parentText": "You might want to check the original paper on this."
+  }
+]
